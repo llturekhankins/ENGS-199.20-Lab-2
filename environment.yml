@@ -1,0 +1,12 @@
+name: lab2
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas # great for tabular data
+  - numpy # great for efficient operations on large arrays
+  - matplotlib # standard plotting library for python
+  - nbconvert # for converting our notebook to pdf for submission
+  - ipykernel # for setting up the kernel for using this env in jupyter
+  - seaborn # good for exploratory data analysis and some final figures
+  - jupyter 
